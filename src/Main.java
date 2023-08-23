@@ -2,16 +2,79 @@
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        // Press Alt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+            var dog = 8.0;
+        var cat = 3.6;
+        var paper = 763789;
 
-        // Press Shift+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
+        System.out.println(dog);
+        System.out.println(cat);
+        System.out.println(paper);
 
-            // Press Shift+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
-        }
+        dog = dog + 4;
+        cat = cat + 4;
+        paper = paper + 4;
+        System.out.println(dog);
+        System.out.println(cat);
+        System.out.println(paper);
+
+        dog = dog - 3.5;
+        cat = cat - 1.6;
+        paper = paper - 7639;
+        System.out.println(dog);
+        System.out.println(cat);
+        System.out.println(paper);
+
+        var friend = 19;
+        System.out.println(friend);
+        friend = friend + 2;
+        System.out.println(friend);
+        friend = friend / 7;
+        System.out.println(friend);
+
+        var frog = 3.5;
+        System.out.println(frog);
+        frog = frog * 10;
+        System.out.println(frog);
+        frog = frog / 3.5;
+        System.out.println(frog);
+        frog = frog + 4;
+        System.out.println(frog);
+
+        var bokserA = 78.2;
+        var bokserB = 82.7;
+
+        var weight = bokserA + bokserB;
+        System.out.println(weight);
+        var massDifference =   bokserA - bokserB;
+        System.out.println(massDifference);
+
+        var massDifference2 = bokserB - bokserA;
+        System.out.println(massDifference2);
+        var massDifference3 = bokserB % bokserA;
+        System.out.println(massDifference3);
+
+        var openingHours = 640;
+        var employeeHours = 8;
+        var employees = openingHours / employeeHours;
+        System.out.println("Всего рабоников в компании - " + employees + " человек");
+        employees = employees + 94;
+        openingHours = openingHours + employees * employeeHours;
+        System.out.println("Если в компании работает " + employees + " человека, то всего " + openingHours + " часов работы может быть поделено между сотрудниками");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 }
